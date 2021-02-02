@@ -1,0 +1,29 @@
+/*
+ * @Author:lyh
+ * @Date: 2019-12-19 18:16:21
+ * @Purpose: 三角形
+ */
+
+.youxue-triangle {
+  display: inline-block;
+  width: 0;
+  border-width: 10px;
+  border-color: transparent;
+  border-style: solid;
+
+  &.youxue-triangle--top {
+    border-bottom-color: $color-main;
+  }
+
+  &.youxue-triangle--right {
+    border-left-color: $color-main;
+  }
+
+  &.youxue-triangle--bottom {
+    border-top-color: $color-main;
+  }
+
+  &.youxue-triangle--left {
+    border-right-color: $color-main;
+  }
+}

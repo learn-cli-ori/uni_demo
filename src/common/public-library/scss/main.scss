@@ -1,0 +1,16 @@
+/*
+ * @Author:lyh
+ * @Date: 2019-12-19 16:12:05
+ * @Purpose: 优学通用库样式
+ */
+
+@import "./layout/index.scss", "./component/index.scss", "./util/index.scss",
+  "./theme/index.scss", "./animate/index.scss", "./icon/index.scss";
+
+// #ifdef H5
+@import "./reset/web.scss";
+// #endif
+
+// #ifdef MP-WEIXIN
+@import "./reset/mp.scss";
+// #endif

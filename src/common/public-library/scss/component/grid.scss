@@ -1,0 +1,99 @@
+/*
+ * @Author:lyh
+ * @Date: 2019-12-19 18:16:21
+ * @Purpose: 宫格
+ */
+
+.youxue-grid {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  &.youxue-grid--border {
+    border: 1px solid $color-border;
+    border: 2rpx solid $color-border;
+    border-bottom: none;
+    border-right: none;
+
+    .item {
+      border-bottom: 1px solid $color-border;
+      border-right: 1px solid $color-border;
+    }
+
+    &.youxue-grid--unout {
+      border: none;
+
+      &.youxue-grid--2 {
+        .item {
+          &:nth-child(2n) {
+            border-right: none;
+          }
+
+          &:nth-last-child(-n + 2) {
+            border-bottom: none;
+          }
+        }
+      }
+
+      &.youxue-grid--3 {
+        .item {
+          &:nth-child(3n) {
+            border-right: none;
+          }
+
+          &:nth-last-child(-n + 3) {
+            border-bottom: none;
+          }
+        }
+      }
+
+      &.youxue-grid--4 {
+        .item {
+          &:nth-child(4n) {
+            border-right: none;
+          }
+
+          &:nth-last-child(-n + 4) {
+            border-bottom: none;
+          }
+        }
+      }
+
+      &.youxue-grid--5 {
+        .item {
+          &:nth-child(5n) {
+            border-right: none;
+          }
+
+          &:nth-last-child(-n + 5) {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+
+  &.youxue-grid--2 {
+    .item {
+      width: 50%;
+    }
+  }
+
+  &.youxue-grid--3 {
+    .item {
+      width: 33.33%;
+    }
+  }
+
+  &.youxue-grid--4 {
+    .item {
+      width: 25%;
+    }
+  }
+
+  &.youxue-grid--5 {
+    .item {
+      width: 20%;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/*
+ * @Author: likang xie
+ * @Date: 2020-05-09 11:26:52
+ * @Purpose: 用途
+ */
+
+// 继承优学样式库的主题变量
+@import '@/common/public-library/scss/theme/index.scss';
+
+$color-main: #ff6f17;
+$color-yellow: #ffe42f;
+$color-text: #751c13;
+$oss: 'http://47.103.198.48:8080/lottery/image/';
+
+body,
+page {
+	.cl-main {
+		color: $color-main !important;
+	}
+
+	.bcl-main {
+		background-color: $color-main !important;
+	}
+
+	.cl-yellow {
+		color: $color-yellow !important;
+	}
+
+	.bcl-yellow {
+		background-color: $color-yellow !important;
+	}
+
+	.cl-text {
+		color: $color-text !important;
+	}
+
+	.common-btn ::v-deep .youxue-button{
+		border-bottom: 5px solid #E29B1F;
+	}
+}

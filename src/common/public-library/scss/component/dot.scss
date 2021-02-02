@@ -1,0 +1,43 @@
+/*
+ * @Author:lyh
+ * @Date: 2020-04-01 18:04:46
+ * @Purpose: 圆点
+ */
+
+.youxue-dot {
+  display: inline-block;
+  width: 10px;
+  width: 20rpx;
+  height: 10px;
+  height: 20rpx;
+  border-radius: 50%;
+  background-color: $color-main;
+
+  &.youxue-dot--mini {
+    width: 5px;
+    width: 10rpx;
+    height: 5px;
+    height: 10rpx;
+  }
+
+  &.youxue-dot--small {
+    width: 7px;
+    width: 14rpx;
+    height: 7px;
+    height: 14rpx;
+  }
+
+  &.youxue-dot--large {
+    width: 13px;
+    width: 26rpx;
+    height: 13px;
+    height: 26rpx;
+  }
+
+  &.youxue-dot--absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+  }
+}

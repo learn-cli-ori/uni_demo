@@ -1,0 +1,15 @@
+{
+  "name": "cr-mobile-library",
+  "version": "1.0.3",
+  "description": "优学移动端组件库（component）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.yatiku.com/cr-front/mobile-library.git"
+  },
+  "author": "baisfc",
+  "license": "ISC"
+}

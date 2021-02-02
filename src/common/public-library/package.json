@@ -1,0 +1,23 @@
+{
+  "name": "youxue-public-library",
+  "version": "1.0.0",
+  "description": "优学前端公共库（样式、API）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.yatiku.com/youxue-front/public-library.git"
+  },
+  "author": "baisfc",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "animate.css": "^3.7.2",
+    "moment": "^2.24.0",
+    "qs": "^6.9.1",
+    "vant": "^2.5.5",
+    "weixin-js-sdk": "^1.4.0-test"
+  }
+}

@@ -1,0 +1,38 @@
+/*
+ * @Author:lyh
+ * @Date: 2019-12-19 18:16:21
+ * @Purpose: 头像
+ */
+
+.youxue-avatar {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 0;
+  background-color: $color-disabled;
+  object-fit: cover;
+  overflow: hidden;
+
+  &.youxue-avatar--mini {
+    width: 30px;
+    height: 30px;
+    width: 60rpx;
+    height: 60rpx;
+  }
+
+  &.youxue-avatar--small {
+    width: 40px;
+    height: 40px;
+    width: 80rpx;
+    height: 80rpx;
+  }
+
+  &.youxue-avatar--large {
+    width: 60px;
+    height: 60px;
+    width: 120rpx;
+    height: 120rpx;
+  }
+}

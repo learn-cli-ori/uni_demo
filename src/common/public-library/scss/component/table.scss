@@ -1,0 +1,47 @@
+/*
+ * @Author:lyh
+ * @Date: 2019-12-19 18:16:21
+ * @Purpose: 表格
+ */
+
+.youxue-table {
+  .th,
+  .tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .th {
+    font-weight: bolder;
+  }
+
+  .tr {
+    color: $color-basic;
+  }
+
+  .td {
+    flex: 1;
+    margin: 10px 5px;
+    margin: 20rpx 10rpx;
+  }
+
+  // 底部边框
+  &.youxue-table--border {
+    .th,
+    .tr {
+      border-bottom: 1px solid $color-border;
+      border-bottom: 2rpx solid $color-border;
+    }
+  }
+
+  // 斑马线
+  &.youxue-table--stripe {
+    .tr {
+      &:nth-child(2n) {
+        background-color: $color-active;
+      }
+    }
+  }
+}
